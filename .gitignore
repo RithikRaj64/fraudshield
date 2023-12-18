@@ -1,0 +1,9 @@
+.streamlit/
+env/
+etc/
+Include/
+Lib/
+Scripts/
+share/
+secrets.toml
+.streamlit.zip

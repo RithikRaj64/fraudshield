@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "navadin"
+version = "0.1.0"
+description = ""
+authors = ["navadin"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.27.2"
+langchain = "^0.0.320"
+openai = "^0.28.1"
+deep-translator = "^1.11.4"
+easyocr = "^1.7.1"
+pytube = "^15.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
