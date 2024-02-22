@@ -4,9 +4,9 @@ from pytube import YouTube
 import random
 import base64
 import os
-from langchain.llms import OpenAI
-from langchain.agents import AgentExecutor, AgentType, initialize_agent, load_tools  # type: ignore
-from langchain.tools import BaseTool
+from langchain_community.llms import OpenAI
+from langchain_community.agents import AgentExecutor, AgentType, initialize_agent, load_tools  # type: ignore
+from langchain_community.tools import BaseTool
 from typing import List
 import openai
 
